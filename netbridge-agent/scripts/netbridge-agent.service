@@ -1,0 +1,12 @@
+[Unit]
+Description=NetBridge Agent
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/netbridge-agent
+ExecStart=/opt/netbridge-agent/netbridge-agent -config /opt/netbridge-agent/configs/agent.yaml
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

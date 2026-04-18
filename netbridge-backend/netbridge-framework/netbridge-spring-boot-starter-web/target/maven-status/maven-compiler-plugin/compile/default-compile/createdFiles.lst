@@ -1,0 +1,9 @@
+com\netbridge\framework\web\socket\WebSocketAutoConfiguration.class
+com\netbridge\framework\web\socket\StatusPushService.class
+com\netbridge\framework\web\config\WebAutoConfiguration.class
+com\netbridge\framework\web\api\ApiResponse.class
+com\netbridge\framework\web\socket\WebSocketAutoConfiguration$1.class
+com\netbridge\framework\web\exception\BusinessException.class
+com\netbridge\framework\web\api\PageResult.class
+com\netbridge\framework\web\handler\GlobalExceptionHandler.class
+com\netbridge\framework\web\socket\StatusPushMessage.class

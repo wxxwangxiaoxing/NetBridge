@@ -1,0 +1,2 @@
+com.netbridge.framework.web.config.WebAutoConfiguration
+com.netbridge.framework.web.socket.WebSocketAutoConfiguration

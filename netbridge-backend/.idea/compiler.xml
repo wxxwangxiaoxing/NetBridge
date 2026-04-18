@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for netbridge-backend" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../sdks/maven/Repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+        </processorPath>
+        <module name="netbridge-spring-boot-starter-swagger" />
+        <module name="netbridge-module-service-biz" />
+        <module name="netbridge-module-tunnel-api" />
+        <module name="netbridge-module-tunnel-biz" />
+        <module name="netbridge-module-agent-api" />
+        <module name="netbridge-module-config-api" />
+        <module name="netbridge-module-user-biz" />
+        <module name="netbridge-spring-boot-starter-mybatis" />
+        <module name="netbridge-module-service-api" />
+        <module name="netbridge-spring-boot-starter-redis" />
+        <module name="netbridge-module-agent-biz" />
+        <module name="netbridge-spring-boot-starter-web" />
+        <module name="netbridge-module-config-biz" />
+        <module name="netbridge-server" />
+        <module name="netbridge-module-tailscale-api" />
+        <module name="netbridge-module-user-api" />
+        <module name="netbridge-module-tailscale-biz" />
+        <module name="netbridge-common" />
+        <module name="netbridge-module-server-biz" />
+        <module name="netbridge-spring-boot-starter-security" />
+        <module name="netbridge-module-server-api" />
+        <module name="netbridge-module-task-api" />
+        <module name="netbridge-module-monitor-api" />
+        <module name="netbridge-module-log-api" />
+        <module name="netbridge-module-task-biz" />
+        <module name="netbridge-module-log-biz" />
+        <module name="netbridge-module-monitor-biz" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="netbridge-common" options="-parameters" />
+      <module name="netbridge-module-agent-api" options="-parameters" />
+      <module name="netbridge-module-agent-biz" options="-parameters" />
+      <module name="netbridge-module-config-api" options="-parameters" />
+      <module name="netbridge-module-config-biz" options="-parameters" />
+      <module name="netbridge-module-log-api" options="-parameters" />
+      <module name="netbridge-module-log-biz" options="-parameters" />
+      <module name="netbridge-module-monitor-api" options="-parameters" />
+      <module name="netbridge-module-monitor-biz" options="-parameters" />
+      <module name="netbridge-module-server-api" options="-parameters" />
+      <module name="netbridge-module-server-biz" options="-parameters" />
+      <module name="netbridge-module-service-api" options="-parameters" />
+      <module name="netbridge-module-service-biz" options="-parameters" />
+      <module name="netbridge-module-tailscale-api" options="-parameters" />
+      <module name="netbridge-module-tailscale-biz" options="-parameters" />
+      <module name="netbridge-module-task-api" options="-parameters" />
+      <module name="netbridge-module-task-biz" options="-parameters" />
+      <module name="netbridge-module-tunnel-api" options="-parameters" />
+      <module name="netbridge-module-tunnel-biz" options="-parameters" />
+      <module name="netbridge-module-user-api" options="-parameters" />
+      <module name="netbridge-module-user-biz" options="-parameters" />
+      <module name="netbridge-server" options="-parameters" />
+      <module name="netbridge-spring-boot-starter-mybatis" options="-parameters" />
+      <module name="netbridge-spring-boot-starter-redis" options="-parameters" />
+      <module name="netbridge-spring-boot-starter-security" options="-parameters" />
+      <module name="netbridge-spring-boot-starter-swagger" options="-parameters" />
+      <module name="netbridge-spring-boot-starter-web" options="-parameters" />
+    </option>
+  </component>
+</project>

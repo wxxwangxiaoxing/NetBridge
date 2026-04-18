@@ -1,0 +1,10 @@
+com\netbridge\module\server\service\impl\InstallTokenServiceImpl.class
+com\netbridge\module\server\mapper\ServerMapper.class
+com\netbridge\module\server\mapper\InstallTokenMapper.class
+com\netbridge\module\server\service\impl\ServerServiceImpl.class
+com\netbridge\module\server\service\ServerService.class
+com\netbridge\module\server\service\InstallTokenService.class
+com\netbridge\module\server\entity\ServerEntity.class
+com\netbridge\module\server\schedule\InstallTokenLifecycleScheduler.class
+com\netbridge\module\server\controller\ServerController.class
+com\netbridge\module\server\entity\InstallTokenEntity.class

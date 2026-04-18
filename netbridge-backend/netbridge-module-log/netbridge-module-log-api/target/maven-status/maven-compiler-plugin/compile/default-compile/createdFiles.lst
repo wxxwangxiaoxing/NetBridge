@@ -1,0 +1,2 @@
+com\netbridge\module\log\api\dto\LogDto.class
+com\netbridge\module\log\api\request\LogQueryRequest.class

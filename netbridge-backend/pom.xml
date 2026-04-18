@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.netbridge</groupId>
+    <artifactId>netbridge-backend</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>netbridge-backend</name>
+    <description>NetBridge multi-module backend project</description>
+
+    <modules>
+        <module>netbridge-dependencies</module>
+        <module>netbridge-framework</module>
+        <module>netbridge-module-user</module>
+        <module>netbridge-module-server</module>
+        <module>netbridge-module-service</module>
+        <module>netbridge-module-agent</module>
+        <module>netbridge-module-task</module>
+        <module>netbridge-module-config</module>
+        <module>netbridge-module-log</module>
+        <module>netbridge-module-monitor</module>
+        <module>netbridge-module-tunnel</module>
+        <module>netbridge-module-tailscale</module>
+        <module>netbridge-server</module>
+    </modules>
+</project>

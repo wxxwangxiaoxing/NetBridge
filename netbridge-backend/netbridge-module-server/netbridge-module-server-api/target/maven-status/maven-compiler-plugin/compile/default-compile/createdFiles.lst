@@ -1,0 +1,9 @@
+com\netbridge\module\server\api\request\ServerQueryRequest.class
+com\netbridge\module\server\api\request\ServerUpdateRequest.class
+com\netbridge\module\server\api\dto\ServerDto.class
+com\netbridge\module\server\api\request\InstallTokenQueryRequest.class
+com\netbridge\module\server\api\request\ServerCreateRequest.class
+com\netbridge\module\server\api\dto\InstallCommandResponse.class
+com\netbridge\module\server\api\dto\InstallTokenDto.class
+com\netbridge\module\server\api\dto\ServerDetailDto.class
+com\netbridge\module\server\api\request\GenerateInstallCommandRequest.class

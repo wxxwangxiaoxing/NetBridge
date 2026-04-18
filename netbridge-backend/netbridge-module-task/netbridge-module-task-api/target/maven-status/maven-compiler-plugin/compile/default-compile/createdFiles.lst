@@ -1,0 +1,7 @@
+com\netbridge\module\task\api\dto\TaskPayloadDto.class
+com\netbridge\module\task\api\dto\TaskResultDto.class
+com\netbridge\module\task\api\request\TaskCreateRequest.class
+com\netbridge\module\task\api\request\TaskUpdateRequest.class
+com\netbridge\module\task\api\dto\TaskDto.class
+com\netbridge\module\task\api\request\TaskQueryRequest.class
+com\netbridge\module\task\api\dto\AccessOperationDto.class

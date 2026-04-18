@@ -1,0 +1,5 @@
+com\netbridge\module\service\mapper\ServiceMapper.class
+com\netbridge\module\service\service\impl\ServiceBizServiceImpl.class
+com\netbridge\module\service\controller\ServiceController.class
+com\netbridge\module\service\entity\ServiceEntity.class
+com\netbridge\module\service\service\ServiceBizService.class

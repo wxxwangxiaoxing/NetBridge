@@ -1,0 +1,4 @@
+com\netbridge\module\monitor\api\dto\ServiceMetricDto.class
+com\netbridge\module\monitor\api\dto\ServerMetricDto.class
+com\netbridge\module\monitor\api\request\ServerMetricQueryRequest.class
+com\netbridge\module\monitor\api\request\ServiceMetricQueryRequest.class

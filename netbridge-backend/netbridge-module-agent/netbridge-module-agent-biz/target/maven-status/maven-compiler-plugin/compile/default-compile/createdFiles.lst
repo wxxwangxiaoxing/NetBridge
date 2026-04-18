@@ -1,0 +1,3 @@
+com\netbridge\module\agent\controller\AgentController.class
+com\netbridge\module\agent\service\impl\AgentOnboardingServiceImpl.class
+com\netbridge\module\agent\service\AgentOnboardingService.class

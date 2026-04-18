@@ -1,0 +1,49 @@
+serverUrl: "http://127.0.0.1:8080"
+installToken: ""
+dataDir: "data"
+logLevel: "debug"
+agentVersion: "0.1.0"
+heartbeatIntervalSec: 30
+taskPollIntervalSec: 10
+heartbeatStatus: "online"
+tailscaleIp: ""
+tailscale:
+  # 可选:
+  # serve-http | serve-https | serve-tcp | funnel
+  mode: "serve-http"
+  binary: "tailscale"
+  # funnel 默认使用 443；其他模式默认跟随服务 port
+  advertisePort: 0
+  # 可用占位符:
+  # {serviceId} {serverId} {serviceName} {action} {advertisePort}
+  # {targetHost} {port} {protocol} {accessType} {domain}
+  statusCommand: ""
+  # 例: "tailscale serve --bg {port}"
+  ensureCommand: ""
+  # 例: "tailscale serve reset"
+  teardownCommand: ""
+tunnel:
+  # 可选:
+  # service-token | service-config
+  mode: ""
+  binary: "cloudflared"
+  token: ""
+  configPath: ""
+  statusCommand: ""
+  # 例: "cloudflared --config {configPath} service install"
+  ensureCommand: ""
+  # 例: "cloudflared service uninstall"
+  teardownCommand: ""
+serviceMappings:
+  mysql-main:
+    unit: "mysql"
+  redis-main:
+    unit: "redis"
+  nginx-public:
+    unit: "nginx"
+    checkCommand: "systemctl is-active nginx"
+  custom-worker:
+    startCommand: "/usr/local/bin/workerctl start"
+    stopCommand: "/usr/local/bin/workerctl stop"
+    restartCommand: "/usr/local/bin/workerctl restart"
+    checkCommand: "/usr/local/bin/workerctl health"

@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: netbridge-server
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/netbridge?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+netbridge:
+  security:
+    jwt-secret: netbridge-dev-secret
+    jwt-expire-hours: 24
+  agent:
+    install-script-url: https://netbridge.com/install.sh
+  install-token:
+    cleanup-enabled: true
+    cleanup-fixed-delay-ms: 60000
+  task:
+    lifecycle:
+      timeout-cleanup-enabled: true
+      timeout-cleanup-fixed-delay-ms: 60000
+      timeout-minutes: 10

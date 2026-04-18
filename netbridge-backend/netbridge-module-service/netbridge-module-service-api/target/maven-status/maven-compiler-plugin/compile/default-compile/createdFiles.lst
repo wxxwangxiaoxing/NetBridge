@@ -1,0 +1,6 @@
+com\netbridge\module\service\api\dto\ServiceDetailDto.class
+com\netbridge\module\service\api\dto\ServiceActionResponse.class
+com\netbridge\module\service\api\dto\ServiceDto.class
+com\netbridge\module\service\api\request\ServiceQueryRequest.class
+com\netbridge\module\service\api\request\ServiceCreateRequest.class
+com\netbridge\module\service\api\request\ServiceUpdateRequest.class

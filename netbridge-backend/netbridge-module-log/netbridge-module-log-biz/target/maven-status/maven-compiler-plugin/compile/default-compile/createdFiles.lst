@@ -1,0 +1,5 @@
+com\netbridge\module\log\entity\LogEntity.class
+com\netbridge\module\log\service\impl\LogServiceImpl.class
+com\netbridge\module\log\service\LogService.class
+com\netbridge\module\log\controller\LogController.class
+com\netbridge\module\log\mapper\LogMapper.class

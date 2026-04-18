@@ -1,0 +1,5 @@
+com\netbridge\module\config\mapper\ConfigMapper.class
+com\netbridge\module\config\controller\ConfigController.class
+com\netbridge\module\config\entity\ConfigEntity.class
+com\netbridge\module\config\service\impl\ConfigServiceImpl.class
+com\netbridge\module\config\service\ConfigService.class

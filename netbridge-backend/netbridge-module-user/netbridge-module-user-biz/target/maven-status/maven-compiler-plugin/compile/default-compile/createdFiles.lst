@@ -1,0 +1,5 @@
+com\netbridge\module\user\service\impl\UserServiceImpl.class
+com\netbridge\module\user\entity\UserEntity.class
+com\netbridge\module\user\controller\UserController.class
+com\netbridge\module\user\mapper\UserMapper.class
+com\netbridge\module\user\service\UserService.class

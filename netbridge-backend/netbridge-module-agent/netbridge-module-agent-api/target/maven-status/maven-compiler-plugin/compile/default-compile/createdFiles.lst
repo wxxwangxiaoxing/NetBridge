@@ -1,0 +1,7 @@
+com\netbridge\module\agent\api\request\AgentHeartbeatRequest.class
+com\netbridge\module\agent\api\request\AgentRegisterRequest.class
+com\netbridge\module\agent\api\request\AgentLogRequest.class
+com\netbridge\module\agent\api\request\AgentTaskResultRequest.class
+com\netbridge\module\agent\api\request\AgentTaskPullRequest.class
+com\netbridge\module\agent\api\dto\AgentRegisterResponse.class
+com\netbridge\module\agent\api\dto\AgentTaskResponse.class

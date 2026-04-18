@@ -1,0 +1,6 @@
+com\netbridge\module\user\api\dto\LoginResponse.class
+com\netbridge\module\user\api\request\UserLoginRequest.class
+com\netbridge\module\user\api\dto\UserDto.class
+com\netbridge\module\user\api\request\UserCreateRequest.class
+com\netbridge\module\user\api\request\UserUpdateRequest.class
+com\netbridge\module\user\api\request\UserQueryRequest.class
