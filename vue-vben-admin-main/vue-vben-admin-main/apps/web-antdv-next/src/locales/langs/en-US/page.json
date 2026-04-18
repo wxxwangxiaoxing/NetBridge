@@ -1,0 +1,28 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "codeLogin": "Code Login",
+    "qrcodeLogin": "QR Code Login",
+    "forgetPassword": "Forget Password",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "analytics": "Analytics",
+    "workspace": "Workspace"
+  },
+  "netbridge": {
+    "title": "NetBridge",
+    "overview": "Console",
+    "servers": "Servers",
+    "serverDetail": "Server Detail",
+    "services": "Services",
+    "serviceDetail": "Service Detail",
+    "tasks": "Tasks",
+    "monitor": "Monitor",
+    "logs": "Logs",
+    "installTokens": "Install Tokens",
+    "operationAudit": "Operation Audit"
+  }
+}
